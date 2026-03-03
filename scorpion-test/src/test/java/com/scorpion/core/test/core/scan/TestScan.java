@@ -1,6 +1,6 @@
 package com.scorpion.core.test.core.scan;
 
-import com.scorpion.core.annotation.scan.CompileMetaScan;
+import com.scorpion.core.annotation.scan.CompileScanMeta;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -9,6 +9,6 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
-@CompileMetaScan(resourceFile = ScanConstants.RESOURCE_FILE_1)
+@CompileScanMeta(resourceFile = ScanConstants.RESOURCE_FILE_1)
 public @interface TestScan {
 }

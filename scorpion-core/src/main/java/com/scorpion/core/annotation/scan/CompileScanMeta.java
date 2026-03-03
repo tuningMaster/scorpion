@@ -15,7 +15,7 @@ import java.lang.annotation.Target;
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.ANNOTATION_TYPE)
-public @interface CompileMetaScan {
+public @interface CompileScanMeta {
 
     /**
      * 资源文件,必须是META-INF目录下的

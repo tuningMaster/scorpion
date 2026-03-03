@@ -1,1 +1,2 @@
 com.scorpion.core.processor.CompileScanMetaAnnotationProcessor
+com.scorpion.core.processor.CompileScanMetaAnnotationClassProcessor

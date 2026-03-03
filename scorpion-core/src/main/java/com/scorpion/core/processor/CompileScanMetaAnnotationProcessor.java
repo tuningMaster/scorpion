@@ -1,6 +1,6 @@
 package com.scorpion.core.processor;
 
-import com.scorpion.core.annotation.scan.CompileMetaScan;
+import com.scorpion.core.annotation.scan.CompileScanMeta;
 
 import javax.annotation.processing.ProcessingEnvironment;
 import javax.annotation.processing.RoundEnvironment;
@@ -15,7 +15,7 @@ import java.util.Set;
 public class CompileScanMetaAnnotationProcessor extends AbstractResourceProcessor<String> {
     @Override
     protected Set<Class<? extends Annotation>> annotationTypes() {
-        return Collections.singleton(CompileMetaScan.class);
+        return Collections.singleton(CompileScanMeta.class);
     }
 
     @Override
