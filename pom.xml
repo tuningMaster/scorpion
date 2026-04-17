@@ -11,6 +11,7 @@
     <modules>
         <module>scorpion-core</module>
         <module>scorpion-test</module>
+        <module>scorpion-config</module>
     </modules>
 
     <properties>
