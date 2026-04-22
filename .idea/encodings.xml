@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/scorpion-config/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/scorpion-core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/scorpion-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpion-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpion-spring-boot-starter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/scorpion-test/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/scorpion-test/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />

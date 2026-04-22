@@ -16,9 +16,23 @@ import java.lang.annotation.*;
 @Target(ElementType.TYPE)
 @CompileScanMeta(resourceFile = ResourceConstants.CONFIG_TYPES_FILE)
 public @interface Config {
+    /**
+     * 配置类型标识
+     */
     String type();
 
+    /**
+     * 配置id对应的字段名，用于JSONDecoder注入id
+     */
     String idField();
 
+    /**
+     * 配置解码器，默认JSONDecoder
+     */
     Class<? extends ConfigDecoder> decoder() default JSONDecoder.class;
+
+    /**
+     * 配置索引定义
+     */
+    ConfigIndex[] indices() default {};
 }
